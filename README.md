@@ -12,11 +12,19 @@ Recruiting site for EE5531, served by GitHub Pages at
 | `flyer/flyer_preview.png` | PNG preview of the flyer |
 | `flyer/qr_ee5531.svg` | QR code → the site URL above |
 | `flyer/logos/` | Employer logos used on the flyer only (see `SOURCES.md`) |
+| `content/` | Editable text of the website and flyer (Markdown) |
 
-## Filling in the placeholders
+## Editing the text
 
-Search for `[TBD` in `index.html` and `flyer/flyer.html`. Placeholders cover the term,
-meeting days and time, room, credits, CRN, prerequisites, eligibility, and instructor contact.
+All of the wording lives in two Markdown files:
+
+- `content/website.md`: everything on the website, section by section
+- `content/flyer.md`: everything on the flyer, with approximate length limits (it's a tight single page)
+
+Edit those, commit, and push. Then ask Claude to update the site and/or flyer, and the
+changes will be carried into `index.html` / `flyer/flyer.html`, with the PDF regenerated.
+The HTML files can still be edited directly if you prefer, but then the Markdown files
+need the same edit to stay in sync.
 
 ## Regenerating the flyer PDF
 

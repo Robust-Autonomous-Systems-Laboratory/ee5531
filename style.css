@@ -183,6 +183,8 @@ p { margin: 0 0 1em; }
 .details div { padding: 14px 20px; border-bottom: 1px solid var(--line); }
 .details dt { font-size: .75rem; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
 .details dd { margin: 2px 0 0; font-weight: 500; }
+.details .full { grid-column: 1 / -1; }
+.details a { color: inherit; }
 .callout {
   background: var(--ink); color: #fff; border-radius: var(--radius); padding: 18px 22px;
   border-left: 6px solid var(--gold);

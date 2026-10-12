@@ -1,0 +1,63 @@
+<!--
+FLYER TEXT: the source of truth for the wording on flyer/flyer.html and flyer.pdf.
+
+How to use:
+  * Edit any text below, then commit and push. Ask Claude to "update the flyer" and the
+    changes will be carried into flyer.html, and the PDF and preview will be regenerated.
+  * Keep the "## Section:" headings. They map each block to a part of the page.
+  * The flyer is a single 8.5x11 page with very little spare room. The approximate
+    length limits in each section are guides. If an edit runs long, Claude will tighten
+    the layout or suggest a trim instead of letting it spill onto a second page.
+  * **bold** and *italic* are carried over.
+  * Logos are images, so the employer list below only matters if you add or remove a company.
+-->
+
+# EE5531 Flyer Text
+
+## Section: Header (black band, top)
+- **Kicker:** Michigan Tech · Spring 2027
+- **Headline:** Build the *robot brain.*  <!-- two short lines; keep it to about 4 words -->
+- **Course name:** EE5531 Introduction to Robotics
+- **Pitch:** Take a robot from **raw sensor data** to **driving itself**. You'll localize, map, and navigate real robots with **ROS 2** and **Nav2**, the same stack used on autonomous vehicles and robots in industry.  <!-- up to about 40 words -->
+
+## Section: Point-cloud strip caption
+**Built by students:** 3D LiDAR map of Husky Plaza, about 2 million points  <!-- one line, about 12 words -->
+
+## Section: Selling points (2x2 grid)
+<!-- Each heading is about 5 words max, and each body is about 20 words max (2 lines). -->
+
+### Real robots, every week
+Clearpath Jackals and TurtleBot3s with LiDAR and IMUs. Not just simulation.
+
+### The industry toolchain
+ROS 2, Nav2, SLAM, Gazebo, RViz2, Python, and Git: the skills in robotics and AV job postings.
+
+### The math behind autonomy
+Kalman filters, sensor models, mapping, path planning, and behavior trees.
+
+### A portfolio you can show
+Public GitHub repos with maps, videos, and interactive 3D results.
+
+## Section: Capstone banner (gold)
+- **Title:** Jackal Patrol Challenge
+- **Text:** Your capstone: program a Jackal to patrol autonomously, then **compete**. Performance is scored.  <!-- about 20 words -->
+
+## Section: Alumni logos
+- **Label:** Where EE5531 alumni work now
+- **Logos (left to right):** May Mobility, Torc Robotics, General Motors, Toro, Qualcomm
+- **Footer line:** …and throughout the autonomous vehicle sector.
+
+## Section: Course facts (black band, bottom)
+<!-- Each value should fit on one line (about 55 characters). "For" may run to 2 lines. -->
+- **Lecture:** Mon & Wed, 1:00–1:50 PM
+- **Projects:** Mon, 2:00–3:50 PM
+- **CRN:** 12485 / 12486
+- **Prereqs:** FOSS101 or equivalent experience
+- **For:** MTU Robotics Engineering BS grads, and anyone with Linux, Python/C++, and Git experience
+- **Contact:** Dr. Jeremy Bos · jpbos@mtu.edu
+- **Enrollment note:** **Runs only with enough enrollment.** Register early and bring a friend.
+
+## Section: QR block
+- **Call to action:** Scan for the full course site
+- **URL shown under it:** robust-autonomous-systems-laboratory.github.io/ee5531
+<!-- The QR code itself always points to https://robust-autonomous-systems-laboratory.github.io/ee5531/ -->
