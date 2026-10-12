@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EE5531 Introduction to Robotics | Michigan Tech</title>
+  <meta name="description" content="Program real autonomous robots with ROS 2, Nav2, and LiDAR SLAM. EE5531 alumni work at May Mobility, Torc Robotics, General Motors, Toro, Qualcomm, and across the autonomous vehicle industry.">
+  <meta property="og:title" content="EE5531 Introduction to Robotics: Build the Robot Brain">
+  <meta property="og:description" content="Real robots. Industry tools. A Jackal patrol challenge. Alumni at May Mobility, Torc, GM, Toro, and Qualcomm.">
+  <meta property="og:image" content="https://robust-autonomous-systems-laboratory.github.io/ee5531/assets/husky_plaza_overview.jpg">
+  <meta property="og:url" content="https://robust-autonomous-systems-laboratory.github.io/ee5531/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="#top">EE<span>5531</span></a>
+    <nav>
+      <a href="#course">Course</a>
+      <a href="#capstone">Capstone</a>
+      <a href="#student-work">Student work</a>
+      <a href="#details">Details</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">Michigan Tech · Spring <span class="tbd">[TBD year]</span></p>
+        <h1>Build the<br><em>robot brain.</em></h1>
+        <p class="lede">
+          <strong>EE5531 Introduction to Robotics</strong> takes you from raw sensor data to a robot
+          that maps, plans, and drives itself, using the same software stack that runs on
+          autonomous vehicles and robots in industry.
+        </p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#details">Register: CRN <span class="tbd">[TBD]</span></a>
+          <a class="btn btn-ghost" href="#student-work">See what students built →</a>
+        </div>
+      </div>
+      <figure class="hero-photo">
+        <img src="assets/jackal.png" alt="A Clearpath Jackal robot in front of the Husky statue on the Michigan Tech campus" width="463" height="818">
+        <figcaption>One of the course's Clearpath Jackals, on campus.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ALUMNI -->
+  <section class="alumni" aria-labelledby="alumni-h">
+    <div class="wrap">
+      <h2 id="alumni-h" class="alumni-label">Where EE5531 alumni work now</h2>
+      <ul class="employers">
+        <li>May Mobility</li>
+        <li>Torc Robotics</li>
+        <li>General Motors</li>
+        <li>Toro</li>
+        <li>Qualcomm</li>
+      </ul>
+      <p class="alumni-foot">…and throughout the autonomous vehicle sector.</p>
+    </div>
+  </section>
+
+  <!-- WHY -->
+  <section class="section" id="course">
+    <div class="wrap">
+      <p class="eyebrow">Why take it</p>
+      <h2>Robotics the way industry does it</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Real robots, every week</h3>
+          <p>You won't spend the semester in simulation. You'll drive, map, and navigate with TurtleBot3s and Clearpath Jackals carrying LiDAR and IMUs.</p>
+        </article>
+        <article class="card">
+          <h3>The industry stack</h3>
+          <p>ROS 2, Nav2, SLAM, Gazebo, RViz2, Python, and Git: the tools that show up in robotics and AV job postings.</p>
+        </article>
+        <article class="card">
+          <h3>The math behind autonomy</h3>
+          <p>Kalman filters, sensor noise models, occupancy grids, and path planning. You'll understand <em>why</em> the robot does what it does, not just how to launch it.</p>
+        </article>
+        <article class="card">
+          <h3>A portfolio, not just a grade</h3>
+          <p>Every project lives in a public GitHub repo with maps, videos, and interactive 3D results you can show employers.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ROADMAP -->
+  <section class="section section-alt">
+    <div class="wrap">
+      <p class="eyebrow">The arc of the semester</p>
+      <h2>From sensors to self-driving</h2>
+      <!-- Course content is being revised; edit themes here as the schedule firms up. -->
+      <ol class="roadmap">
+        <li>
+          <span class="step">01</span>
+          <div>
+            <h3>Where am I?</h3>
+            <p>Dead reckoning, odometry, and Kalman filtering: estimating a robot's state from noisy sensors.</p>
+          </div>
+        </li>
+        <li>
+          <span class="step">02</span>
+          <div>
+            <h3>What's around me?</h3>
+            <p>LiDAR sensor models, calibration, and building 2D and 3D maps of real spaces on campus.</p>
+          </div>
+        </li>
+        <li>
+          <span class="step">03</span>
+          <div>
+            <h3>How do I get there?</h3>
+            <p>ROS 2 Nav2: SLAM, costmaps, keepout zones, global and local planners, and behavior trees for recovery.</p>
+          </div>
+        </li>
+        <li class="roadmap-finale">
+          <span class="step">04</span>
+          <div>
+            <h3>Do it on your own, and do it well</h3>
+            <p>Bring it all together in the Jackal Patrol Challenge.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- CAPSTONE -->
+  <section class="section capstone" id="capstone">
+    <div class="wrap capstone-grid">
+      <div>
+        <p class="eyebrow">Capstone</p>
+        <h2>The Jackal Patrol Challenge</h2>
+        <p>
+          Teams program a Clearpath Jackal to carry out an autonomous patrol mission
+          with no joystick and no hand-holding. Robots are scored on how well they perform,
+          so localization, planning, and recovery behavior all count.
+        </p>
+        <p class="muted">Course rules and scoring will be announced in class.</p>
+      </div>
+      <ul class="stat-list">
+        <li><strong>Autonomous</strong><span>No teleoperation during scored runs</span></li>
+        <li><strong>Real hardware</strong><span>Jackal UGVs with LiDAR + IMU</span></li>
+        <li><strong>Scored</strong><span>Performance counts. Teams compete.</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- STUDENT WORK -->
+  <section class="section section-dark" id="student-work">
+    <div class="wrap">
+      <p class="eyebrow">What students built last spring</p>
+      <h2>Husky Plaza, in 3D</h2>
+      <p class="section-lede">
+        Students drove a robot across campus, ran LiDAR SLAM on its sensor data, and published the
+        result as an interactive point cloud. Below are about 2 million points, colored by height.
+        Look closely to spot the trees, the building, and the people.
+      </p>
+      <div class="viewer" id="viewer">
+        <img src="assets/husky_plaza_overview.jpg" alt="Point cloud map of Husky Plaza at Michigan Tech, colored by elevation">
+        <button class="viewer-play" type="button" data-src="https://robust-autonomous-systems-laboratory.github.io/RASL-MOLA-Husky-Plaza/">
+          Load the interactive 3D viewer
+        </button>
+      </div>
+      <p class="viewer-links">
+        <a href="https://robust-autonomous-systems-laboratory.github.io/RASL-MOLA-Husky-Plaza/" target="_blank" rel="noopener">Open full screen ↗</a>
+        <a href="https://github.com/Robust-Autonomous-Systems-Laboratory/RASL-MOLA-Husky-Plaza" target="_blank" rel="noopener">See the code ↗</a>
+      </p>
+      <figure class="wide-shot">
+        <img src="assets/husky_plaza_facade.jpg" alt="Point cloud of a campus building facade and trees, built from LiDAR scans" loading="lazy">
+      </figure>
+    </div>
+  </section>
+
+  <!-- TOOLS -->
+  <section class="section">
+    <div class="wrap">
+      <p class="eyebrow">What you'll work with</p>
+      <h2>Hardware &amp; tools</h2>
+      <ul class="chips">
+        <li>Clearpath Jackal</li>
+        <li>TurtleBot3</li>
+        <li>3D LiDAR</li>
+        <li>IMU</li>
+        <li>ROS 2 Jazzy</li>
+        <li>Nav2</li>
+        <li>SLAM Toolbox</li>
+        <li>Gazebo</li>
+        <li>RViz2</li>
+        <li>Python</li>
+        <li>Git &amp; GitHub</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- DETAILS -->
+  <section class="section section-alt" id="details">
+    <div class="wrap">
+      <p class="eyebrow">Course details</p>
+      <h2>Sign up for Spring</h2>
+      <dl class="details">
+        <div><dt>Course</dt><dd>EE5531 Introduction to Robotics</dd></div>
+        <div><dt>Term</dt><dd>Spring <span class="tbd">[TBD year]</span></dd></div>
+        <div><dt>Meets</dt><dd><span class="tbd">[TBD days &amp; time]</span></dd></div>
+        <div><dt>Room</dt><dd><span class="tbd">[TBD]</span></dd></div>
+        <div><dt>Credits</dt><dd><span class="tbd">[TBD]</span></dd></div>
+        <div><dt>CRN</dt><dd><span class="tbd">[TBD]</span></dd></div>
+        <div><dt>Prerequisites</dt><dd><span class="tbd">[TBD]</span></dd></div>
+        <div><dt>Who should take it</dt><dd><span class="tbd">[TBD eligible majors / class standing]</span></dd></div>
+        <div><dt>Instructor</dt><dd><span class="tbd">[TBD name, email]</span></dd></div>
+      </dl>
+      <p class="callout">
+        <strong>The course runs only if enough students enroll.</strong> If you want it to run, register early and tell a friend.
+      </p>
+      <p><a class="btn btn-primary" href="flyer/flyer.pdf">Download the flyer (PDF)</a></p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <p>
+      Offered by the <a href="https://github.com/Robust-Autonomous-Systems-Laboratory" target="_blank" rel="noopener">Robust Autonomous Systems Laboratory</a>,
+      Michigan Technological University.
+    </p>
+  </div>
+</footer>
+
+<script>
+  // Load the heavy WebGL viewer only on request.
+  document.querySelector('.viewer-play').addEventListener('click', function () {
+    var frame = document.createElement('iframe');
+    frame.src = this.dataset.src;
+    frame.title = 'Interactive 3D point cloud of Husky Plaza';
+    frame.allow = 'fullscreen';
+    var box = document.getElementById('viewer');
+    box.innerHTML = '';
+    box.appendChild(frame);
+    box.classList.add('is-live');
+  });
+</script>
+</body>
+</html>

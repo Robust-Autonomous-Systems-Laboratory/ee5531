@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>EE5531 Flyer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  @page { size: letter; margin: 0; }
+  :root { --gold: #ffcd00; --ink: #111214; --muted: #55585f; }
+  * { box-sizing: border-box; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  html, body { margin: 0; padding: 0; background: #888; }
+  body { font-family: Inter, sans-serif; color: var(--ink); }
+  .page {
+    width: 8.5in; height: 11in; margin: 0 auto; overflow: hidden; position: relative;
+    background: #fff; display: flex; flex-direction: column;
+  }
+  .page > * { flex: none; }
+  @media print { html, body { background: #fff; } }
+  h1, h2, .grotesk { font-family: "Space Grotesk", sans-serif; }
+
+  /* Hero */
+  .hero {
+    background: radial-gradient(5in 3in at 95% 0%, rgba(255,205,0,.22), transparent 70%), var(--ink);
+    color: #fff; display: grid; grid-template-columns: 1fr 2.1in; gap: .35in;
+    padding: .45in .5in .35in; height: 3.8in;
+  }
+  .kicker { font: 700 9.5pt Inter; letter-spacing: .16em; text-transform: uppercase; color: var(--gold); margin: 0 0 .14in; }
+  h1 { font-size: 48pt; line-height: .95; letter-spacing: -.03em; margin: 0 0 .2in; }
+  h1 em { font-style: normal; color: var(--gold); }
+  .course { font: 700 15pt "Space Grotesk"; margin: 0 0 .08in; }
+  .pitch { font-size: 11pt; line-height: 1.45; color: #d4d5d9; margin: 0; }
+  .pitch b { color: #fff; }
+  .photo {
+    border-radius: .12in; overflow: hidden; height: 100%;
+    box-shadow: 0 0 0 2px var(--gold);
+  }
+  .photo img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 38%; display: block; }
+
+  /* Point cloud strip */
+  .strip { position: relative; height: 1.38in; background: #000; overflow: hidden; }
+  .strip img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 45%; display: block; }
+  .strip .tag {
+    position: absolute; left: .5in; bottom: .14in; background: rgba(0,0,0,.72); color: #fff;
+    font-size: 8.5pt; padding: .05in .12in; border-radius: 99px; border: 1px solid rgba(255,205,0,.6);
+  }
+  .strip .tag b { color: var(--gold); }
+
+  /* Body */
+  .body { display: grid; grid-template-columns: 1fr 1fr; gap: .14in .3in; padding: .26in .5in .2in; }
+  .point h2 { font-size: 13pt; margin: 0 0 .03in; display: flex; align-items: center; gap: .08in; }
+  .point h2::before { content: ""; width: .1in; height: .1in; background: var(--gold); border-radius: 2px; flex: none; }
+  .point p { font-size: 9.6pt; line-height: 1.4; color: var(--muted); margin: 0; }
+  .challenge {
+    grid-column: 1 / -1; background: var(--gold); border-radius: .1in; padding: .13in .2in;
+    display: flex; align-items: center; gap: .2in;
+  }
+  .challenge strong { font: 700 15pt "Space Grotesk"; white-space: nowrap; }
+  .challenge span { font-size: 9.8pt; line-height: 1.35; }
+
+  /* Alumni logos */
+  .alumni { padding: .04in .55in .14in; text-align: center; }
+  .alumni .label { font: 700 9pt Inter; letter-spacing: .16em; text-transform: uppercase; margin: 0 0 .12in; }
+  .alumni .label::before, .alumni .label::after { content: "—"; color: var(--gold); margin: 0 .1in; }
+  .logos { display: flex; align-items: center; justify-content: space-between; gap: .2in; }
+  .logos img { display: block; }
+  .alumni .foot { font-size: 9.5pt; font-weight: 600; margin: .12in 0 0; color: var(--muted); }
+
+  /* Footer */
+  .footer {
+    margin-top: auto; background: var(--ink); color: #fff;
+    display: grid; grid-template-columns: 1fr auto; gap: .3in; align-items: center;
+    padding: .18in .5in .2in;
+  }
+  .facts { display: grid; grid-template-columns: auto 1fr; gap: .04in .16in; font-size: 9.5pt; margin: 0; }
+  .facts dt { color: var(--gold); font-weight: 700; text-transform: uppercase; letter-spacing: .1em; font-size: 7.8pt; padding-top: .02in; }
+  .facts dd { margin: 0; }
+  .tbd { background: rgba(255,205,0,.22); color: var(--gold); border-radius: 3px; padding: 0 .04in; font-weight: 600; }
+  .runs { font-size: 9pt; color: #c9cbd0; margin: .1in 0 0; }
+  .runs b { color: #fff; }
+  .qr { display: flex; align-items: center; gap: .16in; }
+  .qr-box { background: #fff; padding: .06in; border-radius: .08in; }
+  .qr-box img { width: 1.4in; height: 1.4in; display: block; }
+  .qr-text { font: 700 14pt/1.1 "Space Grotesk"; max-width: 1.6in; }
+  .qr-text small { display: block; white-space: nowrap; font: 500 7pt Inter; color: #c9cbd0; margin-top: .08in; }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <section class="hero">
+    <div>
+      <p class="kicker">Michigan Tech · Spring <span class="tbd">[TBD]</span></p>
+      <h1>Build the<br><em>robot brain.</em></h1>
+      <p class="course">EE5531 Introduction to Robotics</p>
+      <p class="pitch">
+        Take a robot from <b>raw sensor data</b> to <b>driving itself</b>. You'll localize,
+        map, and navigate real robots with <b>ROS 2</b> and <b>Nav2</b>, the same
+        stack used on autonomous vehicles and robots in industry.
+      </p>
+    </div>
+    <div class="photo"><img src="../assets/jackal.png" alt="Clearpath Jackal robot in front of the Husky statue"></div>
+  </section>
+
+  <section class="strip">
+    <img src="../assets/husky_plaza_overview.jpg" alt="3D LiDAR point cloud of Husky Plaza">
+    <span class="tag"><b>Built by students:</b> 3D LiDAR map of Husky Plaza, about 2 million points</span>
+  </section>
+
+  <section class="body">
+    <div class="point">
+      <h2>Real robots, every week</h2>
+      <p>Clearpath Jackals and TurtleBot3s with LiDAR and IMUs. Not just simulation.</p>
+    </div>
+    <div class="point">
+      <h2>The industry toolchain</h2>
+      <p>ROS 2, Nav2, SLAM, Gazebo, RViz2, Python, and Git: the skills in robotics and AV job postings.</p>
+    </div>
+    <div class="point">
+      <h2>The math behind autonomy</h2>
+      <p>Kalman filters, sensor models, mapping, path planning, and behavior trees.</p>
+    </div>
+    <div class="point">
+      <h2>A portfolio you can show</h2>
+      <p>Public GitHub repos with maps, videos, and interactive 3D results.</p>
+    </div>
+    <div class="challenge">
+      <strong>Jackal Patrol Challenge</strong>
+      <span>Your capstone: program a Jackal to patrol autonomously, then <b>compete</b>. Performance is scored.</span>
+    </div>
+  </section>
+
+  <section class="alumni">
+    <p class="label">Where EE5531 alumni work now</p>
+    <div class="logos">
+      <img src="logos/may_mobility.png" alt="May Mobility" style="height:.27in">
+      <img src="logos/torc.png" alt="Torc Robotics" style="height:.31in">
+      <img src="logos/gm.svg" alt="General Motors" style="height:.38in">
+      <img src="logos/toro.png" alt="Toro" style="height:.42in">
+      <img src="logos/qualcomm.svg" alt="Qualcomm" style="height:.27in">
+    </div>
+    <p class="foot">…and throughout the autonomous vehicle sector.</p>
+  </section>
+
+  <section class="footer">
+    <div>
+      <dl class="facts">
+        <dt>Meets</dt><dd><span class="tbd">[TBD days &amp; time]</span> · <span class="tbd">[TBD room]</span></dd>
+        <dt>Credits</dt><dd><span class="tbd">[TBD]</span> · CRN <span class="tbd">[TBD]</span></dd>
+        <dt>Prereqs</dt><dd><span class="tbd">[TBD]</span></dd>
+        <dt>Contact</dt><dd><span class="tbd">[TBD instructor name, email]</span></dd>
+      </dl>
+      <p class="runs"><b>The course runs only if enough students enroll.</b> Register early and bring a friend.</p>
+    </div>
+    <div class="qr">
+      <div class="qr-text">Scan for the full course site
+        <small>robust-autonomous-systems-<br>laboratory.github.io/ee5531</small>
+      </div>
+      <div class="qr-box"><img src="qr_ee5531.svg" alt="QR code linking to the EE5531 course website"></div>
+    </div>
+  </section>
+
+</div>
+</body>
+</html>
