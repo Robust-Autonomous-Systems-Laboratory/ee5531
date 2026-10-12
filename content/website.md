@@ -110,11 +110,11 @@ Bring it all together in the Jackal Patrol Challenge.
 - **Details:**
   - **Course:** EE5531 Introduction to Robotics
   - **Term:** Spring 2027
-  - **CRN:** 12485 / 12486
   - **Lecture:** Monday & Wednesday, 1:00–1:50 PM
   - **Project time:** Monday, 2:00–3:50 PM
-  - **Prerequisites:** FOSS101 or equivalent experience
+  - **CRN:** 12485 / 12486
   - **Instructor:** Dr. Jeremy Bos · jpbos@mtu.edu
+  - **Prerequisites:** FOSS101 or equivalent experience
   - **Who should take it:** Students who have completed a BS in Robotics Engineering at Michigan Tech, and anyone with experience in Linux, Python (or C++), and version control who wants to know the whys and hows of autonomous systems.
 - **Callout:** **The course runs only if enough students enroll.** If you want it to run, register early and tell a friend.
 - **Button:** Download the flyer (PDF)
