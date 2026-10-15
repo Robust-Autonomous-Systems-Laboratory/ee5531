@@ -48,7 +48,7 @@ Public GitHub repos with code, maps, and video. Exactly what today's employers e
 
 ## Section: Alumni logos
 - **Label:** Where EE5531 alumni work now
-- **Logos (left to right):** May Mobility, Torc Robotics, General Motors, Toro, Qualcomm
+- **Logos (left to right):** May Mobility, Torc Robotics, General Motors, Toro, Qualcomm, John Deere
 - **Footer line:** …and throughout the autonomous vehicle sector.
 
 ## Section: Course facts (black band, bottom)
