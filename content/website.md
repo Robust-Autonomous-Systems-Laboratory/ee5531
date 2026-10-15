@@ -63,8 +63,8 @@ Every project is a public GitHub repository with code, maps, and video. Exactly 
 - **Intro:** Every autonomous system, from a delivery robot to a self-driving truck, runs the same loop. The course builds it one stage at a time: learn the theory, implement it in ROS 2, then prove it works on a real robot. By the end of the semester, your code runs the whole loop.
 
 ### Step 01 · Observe: What is my sensor really telling me?
-LiDAR, IMU, and wheel encoders. Noise models, Thrun's beam model, and calibration.
-- **Hands-on:** put a robot in front of a wall at 0.5–2 m, record thousands of LiDAR returns, and fit a beam model to your own sensor.
+LiDAR, IMU, and wheel encoders. Noise models and calibration.
+- **Hands-on:** put a robot in front of a wall at 0.5–2 m, record thousands of LiDAR returns, and measure exactly how your sensor gets it wrong.
 
 ### Step 02 · Orient: Where am I, and what's around me?
 Dead reckoning, the Bayes filter, EKF and UKF, occupancy grids, and SLAM.
