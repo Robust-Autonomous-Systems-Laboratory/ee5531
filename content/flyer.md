@@ -16,9 +16,9 @@ How to use:
 
 ## Section: Header (black band, top)
 - **Kicker:** Michigan Tech · Spring 2027
-- **Headline:** Build the *robot brain.*  <!-- two short lines; keep it to about 4 words -->
+- **Headline:** *Wanted:* Future Autonomy Stack Engineers.  <!-- "Wanted:" in gold on its own line, then two lines; keep the rest to about 4 words -->
 - **Course name:** EE5531 Introduction to Robotics
-- **Pitch:** Take a robot from **raw sensor data** to **driving itself**. You'll localize, map, and navigate real robots with **ROS 2** and **Nav2**, the same stack used on autonomous vehicles and robots in industry.  <!-- up to about 40 words -->
+- **Pitch:** Transform **raw sensor streams** into **autonomous movement**. You will build software to map environments, estimate position under uncertainty, and navigate physical platforms using algorithmic foundations standard in industry.  <!-- up to about 40 words -->
 
 ## Section: Point-cloud strip caption
 **Built by students:** 3D LiDAR map of Husky Plaza, about 2 million points  <!-- one line, about 12 words -->
@@ -26,21 +26,25 @@ How to use:
 ## Section: Selling points (2x2 grid)
 <!-- Each heading is about 5 words max, and each body is about 20 words max (2 lines). -->
 
-### Real robots, every week
+### Real robots
 Clearpath Jackals and TurtleBot3s with LiDAR and IMUs. Not just simulation.
 
 ### The industry toolchain
-ROS 2, Nav2, SLAM, Gazebo, RViz2, Python, and Git: the skills in robotics and AV job postings.
+ROS 2, Nav2, SLAM, Gazebo, RViz2, Python, and Git: the skills named in robotics and AV job postings.
 
 ### The math behind autonomy
-Kalman filters, sensor models, mapping, path planning, and behavior trees.
+Probabilistic sensor models, Bayesian filtering (EKF/UKF), mapping, and path planning.
 
 ### A portfolio you can show
-Public GitHub repos with maps, videos, and interactive 3D results.
+Public GitHub repos with code, maps, and video. Exactly what today's employers expect.
 
-## Section: Capstone banner (gold)
-- **Title:** Jackal Patrol Challenge
-- **Text:** Your capstone: program a Jackal to patrol autonomously, then **compete**. Performance is scored.  <!-- about 20 words -->
+## Section: Course structure strip (OODA loop)
+<!-- Four boxes in a row; each line is about 6 words max. Keep in step with the website's Course structure section. -->
+- **Label:** Course structure: the OODA loop
+- **Observe:** Sensor models, noise, and calibration
+- **Orient:** State estimation, mapping, and SLAM
+- **Decide:** Costmaps, path planning, and behavior trees
+- **Act:** Control and full-stack integration on the Jackals
 
 ## Section: Alumni logos
 - **Label:** Where EE5531 alumni work now
@@ -53,9 +57,9 @@ Public GitHub repos with maps, videos, and interactive 3D results.
 - **Projects:** Mon, 2:00–3:50 PM
 - **CRN:** 12485 / 12486
 - **Prereqs:** FOSS101 or equivalent experience
-- **For:** MTU Robotics Engineering BS grads, and anyone with Linux, Python/C++, and Git experience
+- **For:** MTU Robotics Engineering BS grads, and anyone with Linux, Python/C++, and Git experience.
 - **Contact:** Dr. Jeremy Bos · jpbos@mtu.edu
-- **Enrollment note:** **Runs only with enough enrollment.** Register early and bring a friend.
+- **Enrollment note:** **Runs only with sufficient enrollment.** Register early.
 
 ## Section: QR block
 - **Call to action:** Scan for the full course site

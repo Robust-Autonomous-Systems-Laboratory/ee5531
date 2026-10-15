@@ -24,10 +24,10 @@
   .hero {
     background: radial-gradient(5in 3in at 95% 0%, rgba(255,205,0,.22), transparent 70%), var(--ink);
     color: #fff; display: grid; grid-template-columns: 1fr 2.1in; gap: .35in;
-    padding: .45in .5in .35in; height: 3.8in;
+    padding: .4in .5in .3in; height: 3.75in;
   }
   .kicker { font: 700 9.5pt Inter; letter-spacing: .16em; text-transform: uppercase; color: var(--gold); margin: 0 0 .14in; }
-  h1 { font-size: 48pt; line-height: .95; letter-spacing: -.03em; margin: 0 0 .2in; }
+  h1 { font-size: 34pt; line-height: .98; letter-spacing: -.03em; margin: 0 0 .18in; }
   h1 em { font-style: normal; color: var(--gold); }
   .course { font: 700 15pt "Space Grotesk"; margin: 0 0 .08in; }
   .pitch { font-size: 11pt; line-height: 1.45; color: #d4d5d9; margin: 0; }
@@ -39,7 +39,7 @@
   .photo img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 38%; display: block; }
 
   /* Point cloud strip */
-  .strip { position: relative; height: 1.38in; background: #000; overflow: hidden; }
+  .strip { position: relative; height: 1.0in; background: #000; overflow: hidden; }
   .strip img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 45%; display: block; }
   .strip .tag {
     position: absolute; left: .5in; bottom: .14in; background: rgba(0,0,0,.72); color: #fff;
@@ -48,16 +48,22 @@
   .strip .tag b { color: var(--gold); }
 
   /* Body */
-  .body { display: grid; grid-template-columns: 1fr 1fr; gap: .14in .3in; padding: .26in .5in .2in; }
+  .body { display: grid; grid-template-columns: 1fr 1fr; gap: .12in .3in; padding: .22in .5in .18in; }
   .point h2 { font-size: 13pt; margin: 0 0 .03in; display: flex; align-items: center; gap: .08in; }
   .point h2::before { content: ""; width: .1in; height: .1in; background: var(--gold); border-radius: 2px; flex: none; }
   .point p { font-size: 9.6pt; line-height: 1.4; color: var(--muted); margin: 0; }
-  .challenge {
-    grid-column: 1 / -1; background: var(--gold); border-radius: .1in; padding: .13in .2in;
-    display: flex; align-items: center; gap: .2in;
+  .loop { grid-column: 1 / -1; margin-top: .04in; }
+  .loop .label { font: 700 8.5pt Inter; letter-spacing: .14em; text-transform: uppercase; margin: 0 0 .07in; }
+  .loop ol { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: .1in; }
+  .loop li { background: var(--gold); border-radius: .08in; padding: .08in .12in .1in; position: relative; }
+  .loop li:last-child { background: var(--ink); color: #fff; }
+  .loop li b { display: block; font: 700 12.5pt "Space Grotesk"; }
+  .loop li:last-child b { color: var(--gold); }
+  .loop li span { font-size: 8.6pt; line-height: 1.3; display: block; }
+  .loop li:not(:last-child)::after {
+    content: "›"; position: absolute; right: -.09in; top: 50%; transform: translateY(-55%);
+    font: 700 14pt Inter; color: var(--ink); z-index: 1;
   }
-  .challenge strong { font: 700 15pt "Space Grotesk"; white-space: nowrap; }
-  .challenge span { font-size: 9.8pt; line-height: 1.35; }
 
   /* Alumni logos */
   .alumni { padding: .04in .55in .14in; text-align: center; }
@@ -92,12 +98,12 @@
   <section class="hero">
     <div>
       <p class="kicker">Michigan Tech · Spring 2027</p>
-      <h1>Build the<br><em>robot brain.</em></h1>
+      <h1><em>Wanted:</em><br>Future Autonomy Stack Engineers.</h1>
       <p class="course">EE5531 Introduction to Robotics</p>
       <p class="pitch">
-        Take a robot from <b>raw sensor data</b> to <b>driving itself</b>. You'll localize,
-        map, and navigate real robots with <b>ROS 2</b> and <b>Nav2</b>, the same
-        stack used on autonomous vehicles and robots in industry.
+        Transform <b>raw sensor streams</b> into <b>autonomous movement</b>. You will build
+        software to map environments, estimate position under uncertainty, and navigate physical
+        platforms using algorithmic foundations standard in industry.
       </p>
     </div>
     <div class="photo"><img src="../assets/jackal.png" alt="Clearpath Jackal robot in front of the Husky statue"></div>
@@ -110,24 +116,29 @@
 
   <section class="body">
     <div class="point">
-      <h2>Real robots, every week</h2>
+      <h2>Real robots</h2>
       <p>Clearpath Jackals and TurtleBot3s with LiDAR and IMUs. Not just simulation.</p>
     </div>
     <div class="point">
       <h2>The industry toolchain</h2>
-      <p>ROS 2, Nav2, SLAM, Gazebo, RViz2, Python, and Git: the skills in robotics and AV job postings.</p>
+      <p>ROS 2, Nav2, SLAM, Gazebo, RViz2, Python, and Git: the skills named in robotics and AV job postings.</p>
     </div>
     <div class="point">
       <h2>The math behind autonomy</h2>
-      <p>Kalman filters, sensor models, mapping, path planning, and behavior trees.</p>
+      <p>Probabilistic sensor models, Bayesian filtering (EKF/UKF), mapping, and path planning.</p>
     </div>
     <div class="point">
       <h2>A portfolio you can show</h2>
-      <p>Public GitHub repos with maps, videos, and interactive 3D results.</p>
+      <p>Public GitHub repos with code, maps, and video. Exactly what today's employers expect.</p>
     </div>
-    <div class="challenge">
-      <strong>Jackal Patrol Challenge</strong>
-      <span>Your capstone: program a Jackal to patrol autonomously, then <b>compete</b>. Performance is scored.</span>
+    <div class="loop">
+      <p class="label">Course structure: the OODA loop</p>
+      <ol>
+        <li><b>Observe</b><span>Sensor models, noise, and calibration</span></li>
+        <li><b>Orient</b><span>State estimation, mapping, and SLAM</span></li>
+        <li><b>Decide</b><span>Costmaps, path planning, and behavior trees</span></li>
+        <li><b>Act</b><span>Control and full-stack integration on the Jackals</span></li>
+      </ol>
     </div>
   </section>
 
@@ -150,10 +161,10 @@
         <dt>Projects</dt><dd>Mon, 2:00–3:50 PM</dd>
         <dt>CRN</dt><dd>12485 / 12486</dd>
         <dt>Prereqs</dt><dd>FOSS101 or equivalent experience</dd>
-        <dt>For</dt><dd>MTU Robotics Engineering BS grads, and anyone with Linux, Python/C++, and Git experience</dd>
+        <dt>For</dt><dd>MTU Robotics Engineering BS grads, and anyone with Linux, Python/C++, and Git experience.</dd>
         <dt>Contact</dt><dd>Dr. Jeremy Bos · jpbos@mtu.edu</dd>
       </dl>
-      <p class="runs"><b>Runs only with enough enrollment.</b> Register early and bring a friend.</p>
+      <p class="runs"><b>Runs only with sufficient enrollment.</b> Register early.</p>
     </div>
     <div class="qr">
       <div class="qr-text">Scan for the full course site
