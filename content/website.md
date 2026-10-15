@@ -27,7 +27,6 @@ Course · Structure · Student work · Details
 - **Lede:** In **EE5531 Introduction to Robotics** you transform raw sensor streams into autonomous movement. You will build software to map environments, estimate position under uncertainty, and navigate physical platforms using algorithmic foundations standard in industry.
 - **Primary button:** Register: CRN 12485 / 12486
 - **Secondary button:** See what students built →
-- **Photo caption:** One of the course's Clearpath Jackals, on campus.
 
 ## Section: Alumni band
 - **Label:** Where EE5531 alumni work now
