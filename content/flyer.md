@@ -42,7 +42,7 @@ Public GitHub repos with code, maps, and video. Exactly what today's employers e
 <!-- Four boxes in a row; each line is about 6 words max. Keep in step with the website's Course structure section. -->
 - **Label:** The course follows the loop every autonomous system runs
 - **Observe:** Measure how your LiDAR gets it wrong
-- **Orient:** Kalman filters and SLAM maps of real rooms
+- **Orient:** Kalman filters and SLAM mapping on campus
 - **Decide:** Nav2 planners, costmaps, and recovery
 - **Act:** Your full stack on a Jackal, scored
 

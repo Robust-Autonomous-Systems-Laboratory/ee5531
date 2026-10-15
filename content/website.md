@@ -44,13 +44,13 @@ Course · Structure · Student work · Details
 - **Heading:** Robotics the way industry does it
 
 ### Card: Real robots
-Clearpath Jackals and TurtleBot3s with LiDAR and IMUs. Not just simulation: you'll calibrate their sensors, map real rooms on campus, and send them out on autonomous missions.
+Clearpath Jackals and TurtleBot3s with LiDAR and IMUs. Not just simulation: you'll calibrate their sensors, map campus environments, and send them out on autonomous missions.
 
 ### Card: The industry toolchain
 ROS 2 Jazzy, Nav2, SLAM Toolbox, Gazebo, RViz2, Python, and Git. If you've read an autonomy job posting, you've seen this list.
 
 ### Card: The math that makes autonomy work
-Learn why we can trust autonomous systems. Derive a Kalman filter, then watch it pull a drifting robot back on track. Sensor models, Bayesian filtering, occupancy grids, and path planning, all on real data.
+Learn why we can trust autonomous systems. Derive a Kalman filter, then watch it pull a drifting robot back on track. Sensor models, Bayesian filtering, occupancy grids, and path planning, all on data you collect yourself.
 
 ### Card: A portfolio to make your resume stand out
 Every project is a public GitHub repository with code, maps, and video. Exactly what today's employers expect.
@@ -68,7 +68,7 @@ LiDAR, IMU, and wheel encoders. Noise models and calibration.
 
 ### Step 02 · Orient: Where am I, and what's around me?
 Dead reckoning, the Bayes filter, EKF and UKF, occupancy grids, and SLAM.
-- **Hands-on:** watch odometry drift, fix it with a Kalman filter, then map a real lab with SLAM Toolbox.
+- **Hands-on:** watch odometry drift, fix it with a Kalman filter, then map a campus environment with SLAM Toolbox.
 
 ### Step 03 · Decide: How do I get there?
 Costmaps, keepout zones, global planners, and behavior trees for recovery.
