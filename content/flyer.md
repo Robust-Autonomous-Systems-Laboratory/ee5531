@@ -35,7 +35,7 @@ ROS 2, Nav2, SLAM, Gazebo, Python, and Git. If you've read an AV job posting, yo
 ### The math behind autonomy
 Derive a Kalman filter, then watch it pull a drifting robot back on track.
 
-### A portfolio you can show
+### A portfolio to make your resume stand out
 Public GitHub repos with code, maps, and video. Exactly what today's employers expect.
 
 ## Section: Course structure strip (OODA loop)

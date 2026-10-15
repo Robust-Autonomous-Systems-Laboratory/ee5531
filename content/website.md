@@ -53,7 +53,7 @@ ROS 2 Jazzy, Nav2, SLAM Toolbox, Gazebo, RViz2, Python, and Git. If you've read 
 ### Card: The math behind autonomy
 Derive a Kalman filter, then watch it pull a drifting robot back on track. Sensor models, Bayesian filtering, occupancy grids, and path planning, all on real data.
 
-### Card: A portfolio you can show
+### Card: A portfolio to make your resume stand out
 Every project is a public GitHub repository with code, maps, and video. Exactly what today's employers expect.
 
 ## Section: Course structure
