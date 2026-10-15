@@ -32,8 +32,8 @@ Clearpath Jackals and TurtleBot3s with LiDAR and IMUs. Not just simulation.
 ### The industry toolchain
 ROS 2, Nav2, SLAM, Gazebo, Python, and Git. If you've read an AV job posting, you've seen this list.
 
-### The math behind autonomy
-Derive a Kalman filter, then watch it pull a drifting robot back on track.
+### The math that makes autonomy work
+Learn why we can trust autonomous systems: derive a Kalman filter and watch it correct a drifting robot.
 
 ### A portfolio to make your resume stand out
 Public GitHub repos with code, maps, and video. Exactly what today's employers expect.

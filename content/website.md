@@ -49,8 +49,8 @@ Clearpath Jackals and TurtleBot3s with LiDAR and IMUs. Not just simulation: you'
 ### Card: The industry toolchain
 ROS 2 Jazzy, Nav2, SLAM Toolbox, Gazebo, RViz2, Python, and Git. If you've read an autonomy job posting, you've seen this list.
 
-### Card: The math behind autonomy
-Derive a Kalman filter, then watch it pull a drifting robot back on track. Sensor models, Bayesian filtering, occupancy grids, and path planning, all on real data.
+### Card: The math that makes autonomy work
+Learn why we can trust autonomous systems. Derive a Kalman filter, then watch it pull a drifting robot back on track. Sensor models, Bayesian filtering, occupancy grids, and path planning, all on real data.
 
 ### Card: A portfolio to make your resume stand out
 Every project is a public GitHub repository with code, maps, and video. Exactly what today's employers expect.
