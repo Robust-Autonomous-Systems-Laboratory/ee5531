@@ -26,8 +26,8 @@ Course · Structure · Student work · Details
 - **Headline:** *Wanted:* Future Autonomy Stack Engineers.
 - **Lede:** In **EE5531 Introduction to Robotics** you transform raw sensor streams into autonomous movement. You will build software to map environments, estimate position under uncertainty, and navigate physical platforms using algorithmic foundations standard in industry.
 - **Primary button:** Register: CRN 12485 / 12486
-- **Secondary button:** See past student work →
-- **Photo caption:** A Clearpath Jackal, one of the course platforms.
+- **Secondary button:** See what students built →
+- **Photo caption:** One of the course's Clearpath Jackals, on campus.
 
 ## Section: Alumni band
 - **Label:** Where EE5531 alumni work now
@@ -41,52 +41,52 @@ Course · Structure · Student work · Details
 
 ## Section: Why take it
 - **Eyebrow:** Why take it
-- **Heading:** Built for engineers headed into autonomy
+- **Heading:** Robotics the way industry does it
 
 ### Card: Real robots
-Clearpath Jackals and TurtleBot3s with LiDAR and IMUs. Not just simulation: algorithms are developed in Gazebo and validated on hardware.
+Clearpath Jackals and TurtleBot3s with LiDAR and IMUs. Not just simulation: you'll calibrate their sensors, map real rooms on campus, and send them out on autonomous missions.
 
 ### Card: The industry toolchain
-ROS 2, Nav2, SLAM Toolbox, Gazebo, RViz2, Python, and Git: the skills named in robotics and AV job postings.
+ROS 2 Jazzy, Nav2, SLAM Toolbox, Gazebo, RViz2, Python, and Git. If you've read an autonomy job posting, you've seen this list.
 
 ### Card: The math behind autonomy
-Probabilistic sensor models, Bayesian filtering (EKF/UKF), occupancy-grid mapping, and path planning, derived first and then implemented.
+Derive a Kalman filter, then watch it pull a drifting robot back on track. Sensor models, Bayesian filtering, occupancy grids, and path planning, all on real data.
 
 ### Card: A portfolio you can show
-Every project is a public GitHub repository with code, documentation, maps, and video. Exactly what today's employers expect.
+Every project is a public GitHub repository with code, maps, and video. Exactly what today's employers expect.
 
 ## Section: Course structure
 <!-- Organized around the OODA loop (Observe, Orient, Decide, Act). Each step has a stage
-     name, a heading, topics, and one learning outcome. The flyer has a one-line version. -->
+     name, a question heading, topics, and a concrete hands-on task. The flyer has a one-line version. -->
 - **Eyebrow:** Course structure
-- **Heading:** Organized around the OODA loop
-- **Intro:** Every autonomous system runs the same cycle: **observe** the world, **orient** within it, **decide** what to do, and **act**. The course works through that loop one stage at a time. Each stage moves from theory to a ROS 2 implementation to validation on hardware, and builds on the stage before it. The semester ends by closing the full loop on a mobile robot.
+- **Heading:** Observe. Orient. Decide. Act.
+- **Intro:** Every autonomous system, from a delivery robot to a self-driving truck, runs the same loop. The course builds it one stage at a time: learn the theory, implement it in ROS 2, then prove it works on a real robot. By the end of the semester, your code runs the whole loop.
 
-### Step 01 · Observe: Sensing & sensor models
-LiDAR, IMU, and wheel odometry. Noise characterization, the beam model, and calibration.
-- **Outcome:** characterize a sensor statistically and build the measurement model an estimator needs.
+### Step 01 · Observe: What is my sensor really telling me?
+LiDAR, IMU, and wheel encoders. Noise models, Thrun's beam model, and calibration.
+- **Hands-on:** put a robot in front of a wall at 0.5–2 m, record thousands of LiDAR returns, and fit a beam model to your own sensor.
 
-### Step 02 · Orient: State estimation & mapping
+### Step 02 · Orient: Where am I, and what's around me?
 Dead reckoning, the Bayes filter, EKF and UKF, occupancy grids, and SLAM.
-- **Outcome:** estimate a robot's pose under uncertainty and map a real space.
+- **Hands-on:** watch odometry drift, fix it with a Kalman filter, then map a real lab with SLAM Toolbox and check it against a tape measure.
 
-### Step 03 · Decide: Planning
-Costmaps and keepout zones, global path planning, and behavior trees for mission logic and recovery.
-- **Outcome:** plan collision-free paths and specify how a robot responds when a plan fails.
+### Step 03 · Decide: How do I get there?
+Costmaps, keepout zones, global planners, and behavior trees for recovery.
+- **Hands-on:** configure Nav2 to route around obstacles and no-go zones, and to recover when the robot gets stuck.
 
-### Step 04 · Act: Control & integration
-Local controllers and trajectory tracking in Nav2, then closing the loop on the Clearpath Jackals.
-- **Outcome:** integrate the full stack and evaluate its performance on an autonomous mission.
+### Step 04 · Act: Make it happen on hardware
+Local controllers, trajectory tracking, and full-stack integration.
+- **Hands-on:** run your full stack on a Clearpath Jackal on an autonomous mission, with no joystick. Performance is scored.
 
 ## Section: Student work
-- **Eyebrow:** Past student work
-- **Heading:** LiDAR SLAM of Husky Plaza
-- **Paragraph:** Last spring, students processed LiDAR data recorded on campus with the MOLA SLAM framework and published the result as an interactive point cloud: about 2 million points, colored by elevation.
+- **Eyebrow:** What students built last spring
+- **Heading:** Husky Plaza, in 3D
+- **Paragraph:** Students took LiDAR data recorded on campus, ran it through the MOLA SLAM framework, and published the result as an interactive point cloud: about 2 million points, colored by height. Look closely to spot the trees, the building, and the people.
 - **Viewer button:** Load the interactive 3D viewer
 - **Links:** Open full screen ↗ · See the code ↗
 
 ## Section: Hardware & tools
-- **Eyebrow:** Platforms & software
+- **Eyebrow:** What you'll work with
 - **Heading:** Hardware & tools
 - **Chips:**
   - Clearpath Jackal
@@ -103,7 +103,7 @@ Local controllers and trajectory tracking in Nav2, then closing the loop on the 
 
 ## Section: Course details
 - **Eyebrow:** Course details
-- **Heading:** Registration
+- **Heading:** Sign up for Spring
 - **Details:**
   - **Course:** EE5531 Introduction to Robotics
   - **Term:** Spring 2027
@@ -113,7 +113,7 @@ Local controllers and trajectory tracking in Nav2, then closing the loop on the 
   - **Instructor:** Dr. Jeremy Bos · jpbos@mtu.edu
   - **Prerequisites:** FOSS101 or equivalent experience
   - **Who should take it:** Students who have completed a BS in Robotics Engineering at Michigan Tech, and anyone with experience in Linux, Python (or C++), and version control who wants to know the whys and hows of autonomous systems.
-- **Callout:** **The course runs only with sufficient enrollment.** Register early.
+- **Callout:** **The course runs only if enough students enroll.** If you want it to run, register early and tell a friend.
 - **Button:** Download the flyer (PDF)
 
 ## Section: Footer

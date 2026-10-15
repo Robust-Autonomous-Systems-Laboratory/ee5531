@@ -30,21 +30,21 @@ How to use:
 Clearpath Jackals and TurtleBot3s with LiDAR and IMUs. Not just simulation.
 
 ### The industry toolchain
-ROS 2, Nav2, SLAM, Gazebo, RViz2, Python, and Git: the skills named in robotics and AV job postings.
+ROS 2, Nav2, SLAM, Gazebo, Python, and Git. If you've read an AV job posting, you've seen this list.
 
 ### The math behind autonomy
-Probabilistic sensor models, Bayesian filtering (EKF/UKF), mapping, and path planning.
+Derive a Kalman filter, then watch it pull a drifting robot back on track.
 
 ### A portfolio you can show
 Public GitHub repos with code, maps, and video. Exactly what today's employers expect.
 
 ## Section: Course structure strip (OODA loop)
 <!-- Four boxes in a row; each line is about 6 words max. Keep in step with the website's Course structure section. -->
-- **Label:** Course structure: the OODA loop
-- **Observe:** Sensor models, noise, and calibration
-- **Orient:** State estimation, mapping, and SLAM
-- **Decide:** Costmaps, path planning, and behavior trees
-- **Act:** Control and full-stack integration on the Jackals
+- **Label:** The course follows the loop every autonomous system runs
+- **Observe:** Fit a beam model to your own LiDAR
+- **Orient:** Kalman filters and SLAM maps of real rooms
+- **Decide:** Nav2 planners, costmaps, and recovery
+- **Act:** Your full stack on a Jackal, scored
 
 ## Section: Alumni logos
 - **Label:** Where EE5531 alumni work now
@@ -59,7 +59,7 @@ Public GitHub repos with code, maps, and video. Exactly what today's employers e
 - **Prereqs:** FOSS101 or equivalent experience
 - **For:** MTU Robotics Engineering BS grads, and anyone with Linux, Python/C++, and Git experience.
 - **Contact:** Dr. Jeremy Bos · jpbos@mtu.edu
-- **Enrollment note:** **Runs only with sufficient enrollment.** Register early.
+- **Enrollment note:** **Runs only with enough enrollment.** Register early and bring a friend.
 
 ## Section: QR block
 - **Call to action:** Scan for the full course site

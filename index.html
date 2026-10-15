@@ -44,12 +44,12 @@
         </p>
         <div class="cta-row">
           <a class="btn btn-primary" href="#details">Register: CRN 12485 / 12486</a>
-          <a class="btn btn-ghost" href="#student-work">See past student work →</a>
+          <a class="btn btn-ghost" href="#student-work">See what students built →</a>
         </div>
       </div>
       <figure class="hero-photo">
         <img src="assets/jackal.png" alt="A Clearpath Jackal robot in front of the Husky statue on the Michigan Tech campus" width="463" height="818">
-        <figcaption>A Clearpath Jackal, one of the course platforms.</figcaption>
+        <figcaption>One of the course's Clearpath Jackals, on campus.</figcaption>
       </figure>
     </div>
   </section>
@@ -73,23 +73,23 @@
   <section class="section" id="course">
     <div class="wrap">
       <p class="eyebrow">Why take it</p>
-      <h2>Built for engineers headed into autonomy</h2>
+      <h2>Robotics the way industry does it</h2>
       <div class="cards">
         <article class="card">
           <h3>Real robots</h3>
-          <p>Clearpath Jackals and TurtleBot3s with LiDAR and IMUs. Not just simulation: algorithms are developed in Gazebo and validated on hardware.</p>
+          <p>Clearpath Jackals and TurtleBot3s with LiDAR and IMUs. Not just simulation: you'll calibrate their sensors, map real rooms on campus, and send them out on autonomous missions.</p>
         </article>
         <article class="card">
           <h3>The industry toolchain</h3>
-          <p>ROS 2, Nav2, SLAM Toolbox, Gazebo, RViz2, Python, and Git: the skills named in robotics and AV job postings.</p>
+          <p>ROS 2 Jazzy, Nav2, SLAM Toolbox, Gazebo, RViz2, Python, and Git. If you've read an autonomy job posting, you've seen this list.</p>
         </article>
         <article class="card">
           <h3>The math behind autonomy</h3>
-          <p>Probabilistic sensor models, Bayesian filtering (EKF/UKF), occupancy-grid mapping, and path planning, derived first and then implemented.</p>
+          <p>Derive a Kalman filter, then watch it pull a drifting robot back on track. Sensor models, Bayesian filtering, occupancy grids, and path planning, all on real data.</p>
         </article>
         <article class="card">
           <h3>A portfolio you can show</h3>
-          <p>Every project is a public GitHub repository with code, documentation, maps, and video. Exactly what today's employers expect.</p>
+          <p>Every project is a public GitHub repository with code, maps, and video. Exactly what today's employers expect.</p>
         </article>
       </div>
     </div>
@@ -99,46 +99,44 @@
   <section class="section section-alt" id="structure">
     <div class="wrap">
       <p class="eyebrow">Course structure</p>
-      <h2>Organized around the OODA loop</h2>
+      <h2>Observe. Orient. Decide. Act.</h2>
       <p class="section-intro">
-        Every autonomous system runs the same cycle: <strong>observe</strong> the world,
-        <strong>orient</strong> within it, <strong>decide</strong> what to do, and <strong>act</strong>.
-        The course works through that loop one stage at a time. Each stage moves from theory to a
-        ROS&nbsp;2 implementation to validation on hardware, and builds on the stage before it.
-        The semester ends by closing the full loop on a mobile robot.
+        Every autonomous system, from a delivery robot to a self-driving truck, runs the same loop.
+        The course builds it one stage at a time: learn the theory, implement it in ROS&nbsp;2, then
+        prove it works on a real robot. By the end of the semester, your code runs the whole loop.
       </p>
       <!-- Course content is being revised; edit topics here as the schedule firms up. -->
       <ol class="roadmap">
         <li>
           <span class="step">01 · Observe</span>
           <div>
-            <h3>Sensing &amp; sensor models</h3>
-            <p>LiDAR, IMU, and wheel odometry. Noise characterization, the beam model, and calibration.</p>
-            <p class="outcome"><b>Outcome:</b> characterize a sensor statistically and build the measurement model an estimator needs.</p>
+            <h3>What is my sensor really telling me?</h3>
+            <p>LiDAR, IMU, and wheel encoders. Noise models, Thrun's beam model, and calibration.</p>
+            <p class="outcome"><b>Hands-on:</b> put a robot in front of a wall at 0.5–2&nbsp;m, record thousands of LiDAR returns, and fit a beam model to your own sensor.</p>
           </div>
         </li>
         <li>
           <span class="step">02 · Orient</span>
           <div>
-            <h3>State estimation &amp; mapping</h3>
+            <h3>Where am I, and what's around me?</h3>
             <p>Dead reckoning, the Bayes filter, EKF and UKF, occupancy grids, and SLAM.</p>
-            <p class="outcome"><b>Outcome:</b> estimate a robot's pose under uncertainty and map a real space.</p>
+            <p class="outcome"><b>Hands-on:</b> watch odometry drift, fix it with a Kalman filter, then map a real lab with SLAM Toolbox and check it against a tape measure.</p>
           </div>
         </li>
         <li>
           <span class="step">03 · Decide</span>
           <div>
-            <h3>Planning</h3>
-            <p>Costmaps and keepout zones, global path planning, and behavior trees for mission logic and recovery.</p>
-            <p class="outcome"><b>Outcome:</b> plan collision-free paths and specify how a robot responds when a plan fails.</p>
+            <h3>How do I get there?</h3>
+            <p>Costmaps, keepout zones, global planners, and behavior trees for recovery.</p>
+            <p class="outcome"><b>Hands-on:</b> configure Nav2 to route around obstacles and no-go zones, and to recover when the robot gets stuck.</p>
           </div>
         </li>
         <li class="roadmap-finale">
           <span class="step">04 · Act</span>
           <div>
-            <h3>Control &amp; integration</h3>
-            <p>Local controllers and trajectory tracking in Nav2, then closing the loop on the Clearpath Jackals.</p>
-            <p class="outcome"><b>Outcome:</b> integrate the full stack and evaluate its performance on an autonomous mission.</p>
+            <h3>Make it happen on hardware</h3>
+            <p>Local controllers, trajectory tracking, and full-stack integration.</p>
+            <p class="outcome"><b>Hands-on:</b> run your full stack on a Clearpath Jackal on an autonomous mission, with no joystick. Performance is scored.</p>
           </div>
         </li>
       </ol>
@@ -148,12 +146,12 @@
   <!-- STUDENT WORK -->
   <section class="section section-dark" id="student-work">
     <div class="wrap">
-      <p class="eyebrow">Past student work</p>
-      <h2>LiDAR SLAM of Husky Plaza</h2>
+      <p class="eyebrow">What students built last spring</p>
+      <h2>Husky Plaza, in 3D</h2>
       <p class="section-lede">
-        Last spring, students processed LiDAR data recorded on campus with the MOLA SLAM
-        framework and published the result as an interactive point cloud: about 2 million points,
-        colored by elevation.
+        Students took LiDAR data recorded on campus, ran it through the MOLA SLAM framework, and
+        published the result as an interactive point cloud: about 2 million points, colored by height.
+        Look closely to spot the trees, the building, and the people.
       </p>
       <div class="viewer" id="viewer">
         <img src="assets/husky_plaza_overview.jpg" alt="Point cloud map of Husky Plaza at Michigan Tech, colored by elevation">
@@ -174,7 +172,7 @@
   <!-- TOOLS -->
   <section class="section">
     <div class="wrap">
-      <p class="eyebrow">Platforms &amp; software</p>
+      <p class="eyebrow">What you'll work with</p>
       <h2>Hardware &amp; tools</h2>
       <ul class="chips">
         <li>Clearpath Jackal</li>
@@ -196,7 +194,7 @@
   <section class="section section-alt" id="details">
     <div class="wrap">
       <p class="eyebrow">Course details</p>
-      <h2>Registration</h2>
+      <h2>Sign up for Spring</h2>
       <dl class="details">
         <div><dt>Course</dt><dd>EE5531 Introduction to Robotics</dd></div>
         <div><dt>Term</dt><dd>Spring 2027</dd></div>
@@ -208,7 +206,7 @@
         <div class="full"><dt>Who should take it</dt><dd>Students who have completed a BS in Robotics Engineering at Michigan Tech, and anyone with experience in Linux, Python (or C++), and version control who wants to know the whys and hows of autonomous systems.</dd></div>
       </dl>
       <p class="callout">
-        <strong>The course runs only with sufficient enrollment.</strong> Register early.
+        <strong>The course runs only if enough students enroll.</strong> If you want it to run, register early and tell a friend.
       </p>
       <p><a class="btn btn-primary" href="flyer/flyer.pdf">Download the flyer (PDF)</a></p>
     </div>
