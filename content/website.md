@@ -84,7 +84,7 @@ Local controllers, trajectory tracking, and full-stack integration.
 - **Heading:** Husky Plaza, in 3D
 - **Paragraph:** Students took LiDAR data recorded on campus, ran it through the MOLA SLAM framework, and published the result as an interactive point cloud, colored by height. Look closely to spot the trees, the building, and the people.
 - **Viewer button:** Load the interactive 3D viewer
-- **Links:** Open full screen ↗ · See the code ↗
+- **Links:** Open full screen ↗
 
 ## Section: Hardware & tools
 - **Eyebrow:** What you'll work with
