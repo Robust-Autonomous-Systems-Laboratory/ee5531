@@ -21,7 +21,7 @@ How to use:
 - **Pitch:** Transform **raw sensor streams** into **autonomous movement**. You will build software to map environments, estimate position under uncertainty, and navigate physical platforms using algorithmic foundations standard in industry.  <!-- up to about 40 words -->
 
 ## Section: Point-cloud strip caption
-**Built by students:** 3D LiDAR map of Husky Plaza, about 2 million points  <!-- one line, about 12 words -->
+**Built by students:** 3D LiDAR map of Husky Plaza  <!-- one line, about 12 words -->
 
 ## Section: Selling points (2x2 grid)
 <!-- Each heading is about 5 words max, and each body is about 20 words max (2 lines). -->
