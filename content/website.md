@@ -68,7 +68,7 @@ LiDAR, IMU, and wheel encoders. Noise models and calibration.
 
 ### Step 02 · Orient: Where am I, and what's around me?
 Dead reckoning, the Bayes filter, EKF and UKF, occupancy grids, and SLAM.
-- **Hands-on:** watch odometry drift, fix it with a Kalman filter, then map a real lab with SLAM Toolbox and check it against a tape measure.
+- **Hands-on:** watch odometry drift, fix it with a Kalman filter, then map a real lab with SLAM Toolbox.
 
 ### Step 03 · Decide: How do I get there?
 Costmaps, keepout zones, global planners, and behavior trees for recovery.
