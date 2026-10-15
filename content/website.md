@@ -38,7 +38,7 @@ Course · Structure · Student work · Details
   - Toro
   - Qualcomm
   - John Deere
-- **Footer line:** …and throughout the autonomous vehicle sector.
+- **Footer line:** …and throughout the autonomy industry.
 
 ## Section: Why take it
 - **Eyebrow:** Why take it
